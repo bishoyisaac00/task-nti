@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  align-items: left;
+
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.p-3{padding: 50px 0px;}
+.p-4{padding: 50px 50px;}
+.w-80{width: 90%;}
+.continer {width: 90%;margin:0 auto;}
+.container-fluitd{width: 100%; overflow: hidden;}
+.d-flex{display: flex;}
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+button {
+  background: #045be8;
+  border: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius:  3px;
+}
+
+.one-bar {
+  background-color: #cecece;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0px;
+  font-size: 14px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 15px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+
+.last-bar{background-color: #cecece;
+  padding: 8px 0px;
+color: #000000;
+}
+
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+label{  position: relative;
+  right : 239px;
+  top: 8px;
+  color: #0534f1;
+}
+
+  .spam{ 
+    color: #ccc;
+  }
+
+
+.search{
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: flex;
+
+}
+
+.search input {
+  padding: 8px;
+  width: 250px;
+  border: 1px  #ccc;
+  border-radius: 6px;
+}
+
+
+
+.icons i {
+  margin: 0 10px;
+}
+
+
+.s{  justify-content: space-between;
+  padding: 50px 0px;
+flex-wrap: wrap;
+overflow: hidden;}
+
+
+h2 {
+  color: #333;
+}
+
+.products {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 45%;
+  height: 10%;
+  position: relative;
+  justify-content: space-between;
+  border: 1px #e9e7e7 solid;
+  border-radius: 5px;
+
+}
+
+.text{
+  padding: 15px;
+  
+
+}
+.discount {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  padding: 5px 8px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  justify-content: space-between;
+}
+
+.card img {
+  width: 100%;
+  
+}
+.card button{
+  background: #045be8;
+  border: none;
+  color: #fff;
+  padding: 13px 21px;
+  border-radius: 24px;
+  width: 100%;
+}
+
+.card h3 {
+  padding: 13px 0px;
+}
+
+.price {
+color: #0c0889;
+font-size: 22PX;
+padding: 13px 0px;
+
+}
+.old{
+  color: #d5c107;
+
+}
+
+.box-tool{
+width: 100%;
+height: 9rem;
+background-color: blue;
+margin: 50px 0px;
+align-items: center;
+justify-content: space-between;
+padding: 0px 20px;
+
+}
+
+.om{align-items: center;
+}
+
+.btn-box button{
+margin-left: 78%;
+padding: 10px 66px;
+border-radius: 8px;
+background-color: #fff;
+color: #0c0889;
+}
+
+
+.section-header a {
+  color: #045be8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.categories {
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cat-card {
+  flex: 1 1 22%;
+  background: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.cat-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.cat-title {
+  background: #045be8;
+  color: #fff;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.hints-grid {
+  gap: 20px;
+  }
+
+.hint-card {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e9e7e7;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+
+.hint-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.hint-card h3 {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.hint-card p {
+  padding: 0 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.hint-card a {
+  padding: 0 10px;
+  color: #045be8;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.bundle {
+  margin-top: 40px;
+  color: #fff;
+  align-items: center;
+  padding: 30px;
+  gap: 30px;
+
+}
+
+.bundle-img img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 8px;
+}
+
+.bundle-text{
+  background-color: #0534f1;
+  padding: 30px;
+}
+.bundle-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.bundle-text p {
+  margin-bottom: 15px;
+}
+
+.bundle-text button {
+  background: #fff;
+  color: #045be8;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
